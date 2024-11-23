@@ -1,0 +1,66 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	background-color: #fff;
+	position: fixed;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	
+}
+header > img {
+	width: 75px;
+	padding-left: 8px;
+}
+
+.menu > img {
+	width: 52px;
+}
+
+body {
+	background-color: #1434cd;
+	height: 110vh;
+}
+
+section {
+	padding-top: 200px;
+	
+}
+
+section > form {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+section > form > h2 {
+	color: #fff;
+	font-size: 28px;
+	margin-bottom: 18px;
+}
+
+section > form > input {
+	height: 21px;
+	margin-bottom: 12px;
+	
+}
+
+section > form > input::placeholder {
+	color: #010101;
+	font-weight: bolder;
+	padding: 8px;
+	
+}
+
+section > form > button {
+	background-color: #fcc015;
+	border: none;
+	border-radius: 6px;
+	height: 32px;
+	width: 130px;
+}
+
